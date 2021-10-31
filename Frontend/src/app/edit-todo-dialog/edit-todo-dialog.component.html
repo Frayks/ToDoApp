@@ -1,0 +1,24 @@
+<div class="edit-todo-dialog">
+  <div class="container edit-dialog-container p-4">
+    <form #form="ngForm" (ngSubmit)="onFormSubmit(form)">
+      <label for="toDoText" class="form-label title-text">Edit to do</label>
+      <div class="row">
+        <div class="col-8">
+          <input [ngModel]="todo.text" required name="text" type="text" id="toDoText" class="form-control me-2">
+        </div>
+        <div class="col-4 align-self-center">
+          <div class="float-end">
+            <button type="button" class="btn btn-primary d-inline-flex me-2" (click)="onCancelClicked()">
+              <span class="material-icons">clear</span>
+              Cancel
+            </button>
+            <button type="submit" class="btn btn-primary d-inline-flex">
+              <span class="material-icons">save</span>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

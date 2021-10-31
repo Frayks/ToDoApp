@@ -1,0 +1,14 @@
+.edit-todo-dialog .todo-text {
+  font-size: 20px;
+  color: #646464;
+}
+.edit-todo-dialog .title-text {
+  color: #5b5b5b;
+}
+.edit-todo-dialog .edit-dialog-container {
+  background: white;
+  box-shadow: 0 5px 5px rgba(140, 140, 140, 0.5);
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=edit-todo-dialog.component.css.map */

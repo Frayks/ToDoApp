@@ -1,0 +1,22 @@
+<div class="todos">
+  <div class="container custom-container w-50 mt-5 p-4">
+    <form #form="ngForm" (ngSubmit)="onFormSubmit(form)">
+      <label for="toDoText" class="form-label title-text">New to do</label>
+      <div class="d-flex">
+        <input ngModel required name="text" type="text" id="toDoText" class="form-control me-2">
+        <button type="submit" class="btn btn-primary d-inline-flex">
+          <span class="material-icons me-2">add</span>
+          Add
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="todo-list">
+    <app-todo-item *ngFor="let todo of todos; index as i"
+                   [todo]="todo"
+                   (toggleClicked)="onToggleClicked(todo)"
+                   (removeClicked)="onRemoveClicked(i)"
+                   (editClicked)="onEditClicked(i, todo)"></app-todo-item>
+  </div>
+</div>

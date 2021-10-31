@@ -1,0 +1,16 @@
+.todo-item .todo-text {
+  margin-top: 14px;
+  font-size: 16px;
+  color: #646464;
+}
+.todo-item .form-switch-cst {
+  font-size: 20px;
+}
+.todo-item .custom-container {
+  background: white;
+  box-shadow: 0 5px 5px rgba(140, 140, 140, 0.5);
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=todo-item.component.css.map */

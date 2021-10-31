@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #00ff80, #01d0ff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-dialog-container .mat-dialog-container {
+  padding: 0 !important;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
