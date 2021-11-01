@@ -5,7 +5,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document(collection = "to_do")
+@Document(collection = "to_do_list")
 public class ToDoDbi {
     @Id
     String id;
